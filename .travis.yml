@@ -9,4 +9,4 @@ env:
   - CI=true
 
 script:
-  - docker run razamanaza/docker-react CI=true npm run test -- --coverage
+  - docker run razamanaza/docker-react npm run test -- --coverage
